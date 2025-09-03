@@ -11,6 +11,9 @@ class Solution:
                 return False
         return not stack
 
+# core lesson:
+# I've learned not to use return True in this problem,
+# return False and checking whether stack is empty is enough
 
 
 input = ["}"]
